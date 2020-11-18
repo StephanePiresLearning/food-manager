@@ -1,0 +1,24 @@
+{
+  "name": "food-manager",
+  "version": "1.0.0",
+  "description": "A proof of concept for the management of food (recipe, ingredients,stock in the fridge, etc..)",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint . --ext .ts ",
+    "eslint:fix": "eslint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stéphane Pires",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.1.1",
+    "typescript": "^4.0.2"
+  }
+}
